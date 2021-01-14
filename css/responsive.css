@@ -1,0 +1,93 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar-toggler {
+        padding: 0.25rem 0.75rem;
+        /* font-size: 1.25rem; */
+        /* line-height: 1; */
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+        border: none;
+    }
+}
+
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .navbar-toggler {
+        padding: 0.25rem 0.75rem;
+        /* font-size: 1.25rem; */
+        /* line-height: 1; */
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+        border: none;
+    }
+    .banner-section {
+        background: rgb(255, 249, 244);
+        padding-bottom: 24px;
+        padding-top: 20px;
+        /* position: relative; */
+    }
+    .banner-section .inner-content {
+        max-width: 470px;
+        position: relative;
+        transform: translate(5px, 269px);
+    }
+    .banner-section .inner-data {
+        margin-top: 59px;
+        margin-left: 60px;
+        position: relative;
+        transform: translate(-1px, -440px);
+    }
+    .banner-section .inner-content img {
+        max-width: 417px;
+    }
+    .datalist2 {
+        margin: 14px 80px;
+    }
+    .casual_shoes_section .data img {
+        margin-left: 20px;
+    }
+    .casual_shoes_section .data h3 {
+        text-align: center;
+    }
+    .casual_shoes_section .data p {
+        font-size: 15px;
+        text-align: center;
+    }
+    .subscribe-section .inner-data .input-group {
+        width: 360px;
+        margin-left: 14px;
+    }
+    .Perfect_Fit_section .media {
+        margin-left: 50px;
+    }
+    .Perfect_Fit_section .inner-image img {
+        max-width: 430px;
+        margin-top: 23px;
+    }
+    .top-header .info-inner {
+        margin-top: 8px;
+        margin-bottom: 10x;
+        text-align: center;
+    }
+    .top-header .social-icons {
+        list-style: none;
+        display: block;
+        margin-top: -15px;
+        margin-bottom: 10x;
+        text-align: center;
+    }
+}
+
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {}

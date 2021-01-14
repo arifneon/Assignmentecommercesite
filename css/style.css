@@ -1,0 +1,342 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Oswald, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Oswald, sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.header-section {
+    background: rgb(255, 249, 244);
+}
+
+.header-section .navbar-light .navbar-nav .nav-item .nav-link {
+    color: rgb(22, 22, 22);
+    padding: 8px 17px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease 0s;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.header-section .navbar-light .navbar-nav .nav-item .nav-link:hover {
+    color: rgb(247, 143, 47);
+}
+
+.header-section .navbar-light .navbar-brand {
+    width: 300px;
+}
+
+.header-section .navbar-light .navbar-brand img {
+    width: 300px;
+}
+
+.banner-section {
+    background: rgb(255, 249, 244);
+    padding-bottom: 80px;
+    padding-top: 20px;
+}
+
+.banner-section .inner-content {
+    max-width: 470px;
+}
+
+.banner-section .inner-content img {
+    max-width: 470px;
+}
+
+.banner-section .inner-data {
+    margin-top: 59px;
+    margin-left: 60px;
+}
+
+.banner-section .inner-data .fa {
+    margin-right: 6px;
+}
+
+.banner-section .inner-data h1 {
+    color: rgb(54, 57, 88);
+    text-transform: uppercase;
+    font-size: 56px;
+}
+
+.banner-section .inner-data span {
+    color: rgb(250, 128, 76);
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.banner-section .inner-data p {
+    font-weight: 500;
+}
+
+.banner-section .inner-data .btn {
+    background: rgb(56, 70, 205);
+    padding: 13px 25px;
+    font-size: 12px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+}
+
+.casual_shoes_section {}
+
+.casual_shoes_section .para {
+    display: flex;
+    justify-content: center;
+    padding: 54px 0px;
+}
+
+.casual_shoes_section .para p {
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(65, 57, 96);
+}
+
+.casual_shoes_section .datalist {
+    display: flex;
+    justify-content: center;
+}
+
+.datalist2 {
+    width: 33.33%;
+    margin: 0px 21px;
+    border-radius: 10px;
+    background: white;
+    transition: all 0.5s ease 0s;
+}
+
+.datalist2:hover {
+    box-shadow: rgb(242, 237, 237) -1px 13px 20px 5px;
+}
+
+.casual_shoes_section .data {
+    padding: 18px 16px;
+    background: #black;
+    /* background-color: #9e96960d; */
+}
+
+.casual_shoes_section .data img {
+    height: 237px;
+    background-color: #fafafa;
+    border-radius: 9px;
+    margin-top: 16px;
+}
+
+.casual_shoes_section .data h3 {
+    font-size: 22px;
+    color: rgb(65, 57, 96);
+    margin-top: 16px;
+}
+
+.casual_shoes_section .data p {
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
+
+.casual_shoes_section .data a {
+    border-radius: 30px;
+    padding: 8px 20px;
+    background: rgb(56, 70, 205);
+    color: white;
+    transition: all 0.5s ease 0s;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.casual_shoes_section .data a:hover {
+    box-shadow: rgb(96, 89, 89) 0px 0px 7px;
+}
+
+.casual_shoes_section .data ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 31px;
+}
+
+.casual_shoes_section .data ul li {
+    list-style: none;
+    color: rgb(250, 128, 76);
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.Perfect_Fit_section {
+    width: 100%;
+    padding-top: 96px;
+    padding-bottom: 50px;
+}
+
+.Perfect_Fit_section .fit {
+    margin-bottom: 26px;
+}
+
+.Perfect_Fit_section .paragraph {
+    margin: 39px 0px;
+    text-align: center;
+}
+
+.Perfect_Fit_section .paragraph h2 {
+    color: rgb(80, 106, 133);
+}
+
+.Perfect_Fit_section .paragraph p {
+    color: rgb(163, 177, 191);
+}
+
+.Perfect_Fit_section.col-md-4 {
+    margin-bottom: 27px;
+}
+
+.Perfect_Fit_section .media {
+    padding: 16px 16px 10px;
+    border-radius: 13px;
+    transition: all 0.5s ease 0s;
+}
+
+.Perfect_Fit_section .media:hover {
+    box-shadow: rgb(215, 210, 210) 5px 8px 18px 0px;
+}
+
+.Perfect_Fit_section .media img {
+    max-width: 75px;
+}
+
+.Perfect_Fit_section .media .media-body {}
+
+.Perfect_Fit_section .media .media-body h5 {
+    color: rgb(80, 106, 133);
+    font-weight: 700;
+    text-align: left;
+}
+
+.Perfect_Fit_section .media .media-body p {
+    color: rgb(163, 177, 191);
+    text-align: left;
+}
+
+.Perfect_Fit_section .inner-image {}
+
+.Perfect_Fit_section .inner-image img {
+    max-width: 564px;
+    margin-top: 20px;
+}
+
+.subscribe-section {}
+
+.subscribe-section .inner-data {
+    background: url("../images/Rectangle 10.png") 0% 0% / cover no-repeat;
+    margin-top: 46px;
+    padding: 80px 30px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.subscribe-section .inner-data h2 {}
+
+.subscribe-section .inner-data .input-group {
+    width: 501px;
+    text-align: center;
+    margin-left: 300px;
+}
+
+.subscribe-section .inner-data .input-group .form-control {
+    height: 43px;
+}
+
+.subscribe-section .inner-data .input-group .btn {
+    background: rgb(56, 70, 205);
+    border: none;
+    color: white;
+}
+
+
+/* ******** */
+
+.footer-section {
+    width: 100%;
+}
+
+.top-header {
+    width: 100%;
+    background: #FFF9F4;
+}
+
+.top-header .info-inner {
+    list-style: none;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10x;
+}
+
+.top-header .info-inner li {
+    display: inline-block;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.top-header .info-inner li a {
+    color: #8494a6;
+}
+
+.top-header .info-inner li a:hover {
+    text-decoration: none;
+}
+
+.top-header .info-inner li a .fa {
+    margin-right: 5px;
+}
+
+
+/* ******** */
+
+.top-header .social-icons {
+    list-style: none;
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 10x;
+    text-align: right;
+}
+
+.top-header .social-icons li {
+    display: inline-block;
+    margin-right: 15px;
+    color: #3846CD;
+}
+
+.top-header .social-icons li a {
+    color: #506a85;
+}
+
+.top-header .social-icons li a:hover {
+    text-decoration: none;
+}
+
+.top-header .social-icons li a .fa {
+    color: #3846CD;
+    font-size: 18px;
+}
